@@ -1,0 +1,16 @@
+// virtual_emmc.dts
+/ {
+    virtual_emmc {
+        compatible = "virtual,emmc";
+        status = "okay";
+        reg = <0x0 0x0>;  // 虚拟设备不需要实际地址
+        bus-width = <8>;
+        max-frequency = <200000000>;
+        no-sd;
+        no-sdio;
+        mmc-ddr-1_8v;
+        mmc-hs200-1_8v;
+        mmc-hs400-1_8v;
+    };
+};
+
