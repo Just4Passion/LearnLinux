@@ -1,0 +1,1 @@
+cmd_/mnt/nfs/VMUbuntu/my_driver/device/device_module/xbus.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /mnt/nfs/VMUbuntu/my_driver/device/device_module/xbus.ko /mnt/nfs/VMUbuntu/my_driver/device/device_module/xbus.o /mnt/nfs/VMUbuntu/my_driver/device/device_module/xbus.mod.o;  true

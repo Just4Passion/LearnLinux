@@ -1,0 +1,1 @@
+cmd_/mnt/nfs/VMUbuntu/my_driver/device/device_module/modules.order := {   echo /mnt/nfs/VMUbuntu/my_driver/device/device_module/xbus.ko;   echo /mnt/nfs/VMUbuntu/my_driver/device/device_module/xdrv.ko;   echo /mnt/nfs/VMUbuntu/my_driver/device/device_module/xdev.ko; :; } | awk '!x[$$0]++' - > /mnt/nfs/VMUbuntu/my_driver/device/device_module/modules.order

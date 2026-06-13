@@ -1,0 +1,1 @@
+cmd_/mnt/nfs/VMUbuntu/my_driver/device/device_module/Module.symvers := sed 's/\.ko$$/\.o/' /mnt/nfs/VMUbuntu/my_driver/device/device_module/modules.order | scripts/mod/modpost -m -a  -o /mnt/nfs/VMUbuntu/my_driver/device/device_module/Module.symvers -e -i Module.symvers   -T -
